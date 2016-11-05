@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1cd9bf3-100a-4e7f-ba44-bea08484b31c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/includes/fonts/HelveticaLTStd-LightCond_1.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/includes/fonts/HelveticaLTStd-UltraComp_1.otf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/_tk/includes/css/v&amp;m_styles.css" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/includes/css/v&amp;m_styles.css" />
     </list>
     <ignored path="bouddhawok.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -338,7 +334,7 @@
       <workItem from="1478384632504" duration="330000" />
       <workItem from="1478385224289" duration="654000" />
       <workItem from="1478386396082" duration="1192000" />
-      <workItem from="1478387811314" duration="414000" />
+      <workItem from="1478387811314" duration="457000" />
     </task>
     <task id="LOCAL-00001" summary="Creation du site wordpress">
       <created>1478216644144</created>
@@ -354,11 +350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478387125665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Police Helvetica">
+      <created>1478388239219</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1478388239219</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4472000" />
+    <option name="totallyTimeSpent" value="4515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -396,7 +399,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creation du site wordpress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation du site wordpress" />
+    <MESSAGE value="Police Helvetica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Police Helvetica" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$</wordpressPath>
