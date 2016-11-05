@@ -11,6 +11,14 @@
     url("../fonts/8731379ec2c920f40cdc206c1310c6a1.svg#Abolition W00 Soft") format("svg"); /* iOS 4.1- */
 }
 
+@font-face {font-family: "Helvetica Light Cond";
+    src: url("../fonts/HelveticaLTStd-LightCond_1.otf");
+}
+
+@font-face {font-family: "Helvetica Ultra Comp";
+    src: url("HelveticaLTStd-UltraComp_1.otf");
+}
+
 /*===========================================
 ================== GENERAL ==================
 ===========================================*/
