@@ -1,4 +1,17 @@
 /*===========================================
+================== FONT ==================
+===========================================*/
+
+@font-face {font-family: "Abolition";
+    src: url("../fonts/8731379ec2c920f40cdc206c1310c6a1.eot"); /* IE9*/
+    src: url("../fonts/8731379ec2c920f40cdc206c1310c6a1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/8731379ec2c920f40cdc206c1310c6a1.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/8731379ec2c920f40cdc206c1310c6a1.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/8731379ec2c920f40cdc206c1310c6a1.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/8731379ec2c920f40cdc206c1310c6a1.svg#Abolition W00 Soft") format("svg"); /* iOS 4.1- */
+}
+
+/*===========================================
 ================== GENERAL ==================
 ===========================================*/
 *{
@@ -9,6 +22,10 @@
 .row {
     margin-left: 0px;
     margin-right: 0px;
+}
+
+h2.title{
+    font-family: "Abolition";
 }
 
 /*===========================================

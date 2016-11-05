@@ -1,5 +1,7 @@
 <section id="concept">
 	<div class="row">
-		CONCEPT
+		<div class="main-title">
+			<h2 class="title">CONCEPT</h2>
+		</div>
 	</div><!-- end .row -->
 </section><!-- end #concept -->
