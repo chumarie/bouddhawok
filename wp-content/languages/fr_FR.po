@@ -97,7 +97,7 @@ msgid "If you do not activate your site within two days, you will have to sign u
 msgstr "Si vous n&rsquo;activez pas votre site dans les deux jours, vous devrez à nouveau l&rsquo;enregistrer."
 
 #: wp-signup.php:752
-msgid "But, before you can start using your site, <strong>you must activate it</strong>."
+msgid "But, before you can BouddhaWok using your site, <strong>you must activate it</strong>."
 msgstr "Mais, avant d&#8217;utiliser votre nouveau site, <strong>vous devez l&#8217;activer</strong>."
 
 #. translators: %s: site address
@@ -119,7 +119,7 @@ msgid "Check your inbox at %s and click the link given."
 msgstr "Veuillez vérifier votre boite de réception à l’adresse %s et cliquer sur le lien reçu."
 
 #: wp-signup.php:606
-msgid "But, before you can start using your new username, <strong>you must activate it</strong>."
+msgid "But, before you can BouddhaWok using your new username, <strong>you must activate it</strong>."
 msgstr "Mais, avant d&#8217;utiliser votre nouvel identifiant, <strong>vous devez l&#8217;activer</strong>."
 
 #. translators: %s: username

@@ -43,7 +43,7 @@
 			showOrHideWeakPasswordCheckbox();
 		}
 
-		if ( 1 !== parseInt( $toggleButton.data( 'start-masked' ), 10 ) ) {
+		if ( 1 !== parseInt( $toggleButton.data( 'BouddhaWok-masked' ), 10 ) ) {
 			$pass1Wrap.addClass( 'show-password' );
 		} else {
 			$toggleButton.trigger( 'click' );

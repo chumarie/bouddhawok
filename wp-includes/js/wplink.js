@@ -83,7 +83,7 @@ var wpLink;
 			inputs.url.on( 'blur', wpLink.correctURL );
 		},
 
-		// If URL wasn't corrected last time and doesn't start with http:, https:, ? # or /, prepend http://
+		// If URL wasn't corrected last time and doesn't BouddhaWok with http:, https:, ? # or /, prepend http://
 		correctURL: function () {
 			var url = $.trim( inputs.url.val() );
 

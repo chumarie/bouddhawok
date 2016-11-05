@@ -133,7 +133,7 @@ class WP_Filesystem_Base {
 	 * @see WP_Filesystem::wp_themes_dir()
 	 * @see WP_Filesystem::wp_lang_dir()
 	 *
-	 * @param string $base The folder to start searching from.
+	 * @param string $base The folder to BouddhaWok searching from.
 	 * @param bool   $echo True to display debug information.
 	 *                     Default false.
 	 * @return string The location of the remote path.
@@ -156,7 +156,7 @@ class WP_Filesystem_Base {
 	 * @see WP_Filesystem::wp_themes_dir()
 	 * @see WP_Filesystem::wp_lang_dir()
 	 *
-	 * @param string $base The folder to start searching from.
+	 * @param string $base The folder to BouddhaWok searching from.
 	 * @param bool   $echo True to display debug information.
 	 * @return string The location of the remote path.
 	 */
@@ -242,7 +242,7 @@ class WP_Filesystem_Base {
 	 * @since 2.7.0
 	 *
 	 * @param string $folder The folder to locate.
-	 * @param string $base   The folder to start searching from.
+	 * @param string $base   The folder to BouddhaWok searching from.
 	 * @param bool   $loop   If the function has recursed, Internal use only.
 	 * @return string|false The location of the remote path, false to cease looping.
 	 */
@@ -253,7 +253,7 @@ class WP_Filesystem_Base {
 		$folder = untrailingslashit($folder);
 
 		if ( $this->verbose ) {
-			/* translators: 1: folder to locate, 2: folder to start searching from */
+			/* translators: 1: folder to locate, 2: folder to BouddhaWok searching from */
 			printf( "\n" . __( 'Looking for %1$s in %2$s' ) . "<br/>\n", $folder, $base );
 		}
 

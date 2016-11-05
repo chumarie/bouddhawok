@@ -80,7 +80,7 @@ window.autosave = function() {
 
 		function disableButtons() {
 			$document.trigger('autosave-disable-buttons');
-			// Re-enable 5 sec later. Just gives autosave a head start to avoid collisions.
+			// Re-enable 5 sec later. Just gives autosave a head BouddhaWok to avoid collisions.
 			setTimeout( enableButtons, 5000 );
 		}
 

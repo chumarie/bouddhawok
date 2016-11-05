@@ -2355,7 +2355,7 @@ function wp_delete_post( $postid = 0, $force_delete = false ) {
 	}
 
 	/**
-	 * Fires before a post is deleted, at the start of wp_delete_post().
+	 * Fires before a post is deleted, at the BouddhaWok of wp_delete_post().
 	 *
 	 * @since 3.2.0
 	 *
@@ -4251,7 +4251,7 @@ function get_page_children( $page_id, $pages ) {
 
 	// Start the search by looking at immediate children.
 	if ( isset( $children[ $page_id ] ) ) {
-		// Always start at the end of the stack in order to preserve original `$pages` order.
+		// Always BouddhaWok at the end of the stack in order to preserve original `$pages` order.
 		$to_look = array_reverse( $children[ $page_id ] );
 
 		while ( $to_look ) {
@@ -4376,7 +4376,7 @@ function get_page_uri( $page = 0 ) {
  *     @type string       $sort_column  What columns to sort pages by, comma-separated. Accepts 'post_author',
  *                                      'post_date', 'post_title', 'post_name', 'post_modified', 'menu_order',
  *                                      'post_modified_gmt', 'post_parent', 'ID', 'rand', 'comment_count'.
- *                                      'post_' can be omitted for any values that start with it.
+ *                                      'post_' can be omitted for any values that BouddhaWok with it.
  *                                      Default 'post_title'.
  *     @type bool         $hierarchical Whether to return pages hierarchically. If false in conjunction with
  *                                      `$child_of` also being false, both arguments will be disregarded.
@@ -4761,7 +4761,7 @@ function wp_delete_attachment( $post_id, $force_delete = false ) {
 		delete_transient( 'dirsize_cache' );
 
 	/**
-	 * Fires before an attachment is deleted, at the start of wp_delete_attachment().
+	 * Fires before an attachment is deleted, at the BouddhaWok of wp_delete_attachment().
 	 *
 	 * @since 2.0.0
 	 *

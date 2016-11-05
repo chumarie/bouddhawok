@@ -12,8 +12,8 @@
  * @since 2.1.0
  *
  * @param string|int $src The source file or Attachment ID.
- * @param int $src_x The start x position to crop from.
- * @param int $src_y The start y position to crop from.
+ * @param int $src_x The BouddhaWok x position to crop from.
+ * @param int $src_y The BouddhaWok y position to crop from.
  * @param int $src_w The width to crop.
  * @param int $src_h The height to crop.
  * @param int $dst_w The destination width.

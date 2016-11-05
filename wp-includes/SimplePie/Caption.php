@@ -157,7 +157,7 @@ class SimplePie_Caption
 	}
 
 	/**
-	 * Get the start time
+	 * Get the BouddhaWok time
 	 *
 	 * @return string|null Time in the format 'hh:mm:ss.SSS'
 	 */

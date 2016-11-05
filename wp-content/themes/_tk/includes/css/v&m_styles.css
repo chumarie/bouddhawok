@@ -1,0 +1,20 @@
+/*===========================================
+================== GENERAL ==================
+===========================================*/
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*===========================================
+================== HEADER ==================
+===========================================*/
+.navbar-default { display: flex; flex-wrap: wrap; justify-content: space-between; padding: 5px 25px; }
+.navbar-default:before, .navbar-default:after { content: none; }
+.navbar-header { float: none; }
+#main-menu {  }

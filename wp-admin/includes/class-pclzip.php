@@ -1661,7 +1661,7 @@
           }
 
           // ----- Reduce the index list
-          // each index item in the list must be a couple with a start and
+          // each index item in the list must be a couple with a BouddhaWok and
           // an end value : [0,3], [5-5], [8-10], ...
           // ----- Check the format of each item
           $v_sort_flag=false;
@@ -1677,12 +1677,12 @@
               // ----- Look for single value
               if ($v_size_item_list == 1) {
                   // ----- Set the option value
-                  $v_result_list[$p_options_list[$i]][$j]['start'] = $v_item_list[0];
+                  $v_result_list[$p_options_list[$i]][$j]['BouddhaWok'] = $v_item_list[0];
                   $v_result_list[$p_options_list[$i]][$j]['end'] = $v_item_list[0];
               }
               elseif ($v_size_item_list == 2) {
                   // ----- Set the option value
-                  $v_result_list[$p_options_list[$i]][$j]['start'] = $v_item_list[0];
+                  $v_result_list[$p_options_list[$i]][$j]['BouddhaWok'] = $v_item_list[0];
                   $v_result_list[$p_options_list[$i]][$j]['end'] = $v_item_list[1];
               }
               else {
@@ -1695,7 +1695,7 @@
 
 
               // ----- Look for list sort
-              if ($v_result_list[$p_options_list[$i]][$j]['start'] < $v_sort_value) {
+              if ($v_result_list[$p_options_list[$i]][$j]['BouddhaWok'] < $v_sort_value) {
                   $v_sort_flag=true;
 
                   // ----- TBC : An automatic sort should be writen ...
@@ -1705,7 +1705,7 @@
                   // ----- Return
                   return PclZip::errorCode();
               }
-              $v_sort_value = $v_result_list[$p_options_list[$i]][$j]['start'];
+              $v_sort_value = $v_result_list[$p_options_list[$i]][$j]['BouddhaWok'];
           }
 
           // ----- Sort the items
@@ -3418,14 +3418,14 @@
           // ----- Look if the index is in the list
           for ($j=$j_start; ($j<sizeof($p_options[PCLZIP_OPT_BY_INDEX])) && (!$v_extract); $j++) {
 
-              if (($i>=$p_options[PCLZIP_OPT_BY_INDEX][$j]['start']) && ($i<=$p_options[PCLZIP_OPT_BY_INDEX][$j]['end'])) {
+              if (($i>=$p_options[PCLZIP_OPT_BY_INDEX][$j]['BouddhaWok']) && ($i<=$p_options[PCLZIP_OPT_BY_INDEX][$j]['end'])) {
                   $v_extract = true;
               }
               if ($i>=$p_options[PCLZIP_OPT_BY_INDEX][$j]['end']) {
                   $j_start = $j+1;
               }
 
-              if ($p_options[PCLZIP_OPT_BY_INDEX][$j]['start']>$i) {
+              if ($p_options[PCLZIP_OPT_BY_INDEX][$j]['BouddhaWok']>$i) {
                   break;
               }
           }
@@ -4794,14 +4794,14 @@
           // ----- Look if the index is in the list
           for ($j=$j_start; ($j<sizeof($p_options[PCLZIP_OPT_BY_INDEX])) && (!$v_found); $j++) {
 
-              if (($i>=$p_options[PCLZIP_OPT_BY_INDEX][$j]['start']) && ($i<=$p_options[PCLZIP_OPT_BY_INDEX][$j]['end'])) {
+              if (($i>=$p_options[PCLZIP_OPT_BY_INDEX][$j]['BouddhaWok']) && ($i<=$p_options[PCLZIP_OPT_BY_INDEX][$j]['end'])) {
                   $v_found = true;
               }
               if ($i>=$p_options[PCLZIP_OPT_BY_INDEX][$j]['end']) {
                   $j_start = $j+1;
               }
 
-              if ($p_options[PCLZIP_OPT_BY_INDEX][$j]['start']>$i) {
+              if ($p_options[PCLZIP_OPT_BY_INDEX][$j]['BouddhaWok']>$i) {
                   break;
               }
           }

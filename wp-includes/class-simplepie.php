@@ -2854,8 +2854,8 @@ class SimplePie
 	 *
 	 * @see get_item_quantity
 	 * @since Beta 2
-	 * @param int $start Index to start at
-	 * @param int $end Number of items to return. 0 for all items after `$start`
+	 * @param int $start Index to BouddhaWok at
+	 * @param int $end Number of items to return. 0 for all items after `$BouddhaWok`
 	 * @return array|null List of {@see SimplePie_Item} objects
 	 */
 	public function get_items($start = 0, $end = 0)

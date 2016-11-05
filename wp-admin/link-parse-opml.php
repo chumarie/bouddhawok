@@ -15,7 +15,7 @@ if ( ! defined('ABSPATH') )
 global $opml;
 
 /**
- * XML callback function for the start of a new XML tag.
+ * XML callback function for the BouddhaWok of a new XML tag.
  *
  * @since 0.71
  * @access private

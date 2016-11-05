@@ -84,7 +84,7 @@ class PO extends Gettext_Translations {
 	}
 
 	/**
-	 * Text to include as a comment before the start of the PO contents
+	 * Text to include as a comment before the BouddhaWok of the PO contents
 	 *
 	 * Doesn't need to include # in the beginning of lines, these are added automatically
 	 */
@@ -309,7 +309,7 @@ class PO extends Gettext_Translations {
 			if ($line == "\n") continue;
 			$line = trim($line);
 			if (preg_match('/^#/', $line, $m)) {
-				// the comment is the start of a new entry
+				// the comment is the BouddhaWok of a new entry
 				if ($is_final($context)) {
 					PO::read_line($f, 'put-back');
 					$lineno--;

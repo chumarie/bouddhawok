@@ -563,7 +563,7 @@ class Services_JSON
                 // eliminate single line comments in '// ...' form
                 '#^\s*//(.+)$#m',
 
-                // eliminate multi-line comments in '/* ... */' form, at start of string
+                // eliminate multi-line comments in '/* ... */' form, at BouddhaWok of string
                 '#^\s*/\*(.+)\*/#Us',
 
                 // eliminate multi-line comments in '/* ... */' form, at end of string
@@ -799,7 +799,7 @@ class Services_JSON
                         } elseif ((($chrs{$c} == '"') || ($chrs{$c} == "'")) && ($top['what'] != SERVICES_JSON_IN_STR)) {
                             // found a quote, and we are not inside a string
                             array_push($stk, array('what' => SERVICES_JSON_IN_STR, 'where' => $c, 'delim' => $chrs{$c}));
-                            //print("Found start of string at {$c}\n");
+                            //print("Found BouddhaWok of string at {$c}\n");
 
                         } elseif (($chrs{$c} == $top['delim']) &&
                                  ($top['what'] == SERVICES_JSON_IN_STR) &&
@@ -814,7 +814,7 @@ class Services_JSON
                                  in_array($top['what'], array(SERVICES_JSON_SLICE, SERVICES_JSON_IN_ARR, SERVICES_JSON_IN_OBJ))) {
                             // found a left-bracket, and we are in an array, object, or slice
                             array_push($stk, array('what' => SERVICES_JSON_IN_ARR, 'where' => $c, 'delim' => false));
-                            //print("Found start of array at {$c}\n");
+                            //print("Found BouddhaWok of array at {$c}\n");
 
                         } elseif (($chrs{$c} == ']') && ($top['what'] == SERVICES_JSON_IN_ARR)) {
                             // found a right-bracket, and we're in an array
@@ -825,7 +825,7 @@ class Services_JSON
                                  in_array($top['what'], array(SERVICES_JSON_SLICE, SERVICES_JSON_IN_ARR, SERVICES_JSON_IN_OBJ))) {
                             // found a left-brace, and we are in an array, object, or slice
                             array_push($stk, array('what' => SERVICES_JSON_IN_OBJ, 'where' => $c, 'delim' => false));
-                            //print("Found start of object at {$c}\n");
+                            //print("Found BouddhaWok of object at {$c}\n");
 
                         } elseif (($chrs{$c} == '}') && ($top['what'] == SERVICES_JSON_IN_OBJ)) {
                             // found a right-brace, and we're in an object
@@ -834,10 +834,10 @@ class Services_JSON
 
                         } elseif (($substr_chrs_c_2 == '/*') &&
                                  in_array($top['what'], array(SERVICES_JSON_SLICE, SERVICES_JSON_IN_ARR, SERVICES_JSON_IN_OBJ))) {
-                            // found a comment start, and we are in an array, object, or slice
+                            // found a comment BouddhaWok, and we are in an array, object, or slice
                             array_push($stk, array('what' => SERVICES_JSON_IN_CMT, 'where' => $c, 'delim' => false));
                             $c++;
-                            //print("Found start of comment at {$c}\n");
+                            //print("Found BouddhaWok of comment at {$c}\n");
 
                         } elseif (($substr_chrs_c_2 == '*/') && ($top['what'] == SERVICES_JSON_IN_CMT)) {
                             // found a comment end, and we're in one now
@@ -894,9 +894,9 @@ class Services_JSON
     }
     
     /**
-    * Returns part of a string, interpreting $start and $length as number of bytes.
+    * Returns part of a string, interpreting $BouddhaWok and $length as number of bytes.
     * @param string 
-    * @param integer start 
+    * @param integer BouddhaWok
     * @param integer length 
     * @return integer length
     */

@@ -53,7 +53,7 @@ function fileUploading( up, file ) {
 				up.removeFile( file );
 				up.start(); // restart the queue
 			}
-		}, 10000 ); // wait for 10 sec. for the file to start uploading
+		}, 10000 ); // wait for 10 sec. for the file to BouddhaWok uploading
 	}
 }
 
@@ -192,7 +192,7 @@ function prepareMediaItemInit(fileObj) {
 		return false;
 	});
 
-	// Open this item if it says to start open (e.g. to display an error)
+	// Open this item if it says to BouddhaWok open (e.g. to display an error)
 	jQuery('#media-item-' + fileObj.id + '.startopen').removeClass('startopen').addClass('open').find('slidetoggle').fadeIn();
 }
 

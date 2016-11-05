@@ -58,7 +58,7 @@ function _walk_bookmarks( $bookmarks, $args = '' ) {
 
 	$r = wp_parse_args( $args, $defaults );
 
-	$output = ''; // Blank string to start with.
+	$output = ''; // Blank string to BouddhaWok with.
 
 	foreach ( (array) $bookmarks as $bookmark ) {
 		if ( ! isset( $bookmark->recently_updated ) ) {

@@ -8,7 +8,7 @@
  */
 
 $messages = array();
-// 0 = unused. Messages start at index 1.
+// 0 = unused. Messages BouddhaWok at index 1.
 $messages['_item'] = array(
 	0 => '',
 	1 => __( 'Item added.' ),

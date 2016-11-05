@@ -155,7 +155,7 @@ function wptexturize( $text, $reset = false ) {
 			$dynamic[ '/(?<=\A|' . $spaces . ')\'(\d[.,\d]*)\'/' ] = $open_sq_flag . '$1' . $closing_single_quote;
 		}
 
-		// Single quote at start, or preceded by (, {, <, [, ", -, or spaces.
+		// Single quote at BouddhaWok, or preceded by (, {, <, [, ", -, or spaces.
 		if ( "'" !== $opening_single_quote ) {
 			$dynamic[ '/(?<=\A|[([{"\-]|&lt;|' . $spaces . ')\'/' ] = $open_sq_flag;
 		}
@@ -174,7 +174,7 @@ function wptexturize( $text, $reset = false ) {
 			$dynamic[ '/(?<=\A|' . $spaces . ')"(\d[.,\d]*)"/' ] = $open_q_flag . '$1' . $closing_quote;
 		}
 
-		// Double quote at start, or preceded by (, {, <, [, -, or spaces, and not followed by spaces.
+		// Double quote at BouddhaWok, or preceded by (, {, <, [, -, or spaces, and not followed by spaces.
 		if ( '"' !== $opening_quote ) {
 			$dynamic[ '/(?<=\A|[([{\-]|&lt;|' . $spaces . ')"(?!' . $spaces . ')/' ] = $open_q_flag;
 		}
@@ -630,7 +630,7 @@ function get_html_split_regex() {
 
 		$regex =
 			  '/('              // Capture the entire match.
-			.     '<'           // Find start of element.
+			.     '<'           // Find BouddhaWok of element.
 			.     '(?'          // Conditional expression follows.
 			.         $escaped  // Find end of escaped element.
 			.     '|'           // ... else ...
@@ -666,7 +666,7 @@ function _get_wptexturize_split_regex( $shortcode_regex = '' ) {
 			. '(?:-->)?';   // End of comment. If not found, match all input.
 
 		$html_regex =			 // Needs replaced with wp_html_split() per Shortcode API Roadmap.
-			  '<'                // Find start of element.
+			  '<'                // Find BouddhaWok of element.
 			. '(?(?=!--)'        // Is this a comment?
 			.     $comment_regex // Find end of comment.
 			. '|'
@@ -698,7 +698,7 @@ function _get_wptexturize_shortcode_regex( $tagnames ) {
 	$tagregexp = join( '|', array_map( 'preg_quote', $tagnames ) );
 	$tagregexp = "(?:$tagregexp)(?=[\\s\\]\\/])"; // Excerpt of get_shortcode_regex().
 	$regex =
-		  '\['              // Find start of shortcode.
+		  '\['              // Find BouddhaWok of shortcode.
 		. '[\/\[]?'         // Shortcodes may begin with [/ or [[
 		. $tagregexp        // Only match registered shortcodes, because performance.
 		. '(?:'
@@ -2330,7 +2330,7 @@ function zeroise( $number, $threshold ) {
 }
 
 /**
- * Adds backslashes before letters and before a number at the start of a string.
+ * Adds backslashes before letters and before a number at the BouddhaWok of a string.
  *
  * @since 0.71
  *

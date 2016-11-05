@@ -105,8 +105,8 @@ class WP_Comments_List_Table extends WP_List_Table {
 
 		$page = $this->get_pagenum();
 
-		if ( isset( $_REQUEST['start'] ) ) {
-			$start = $_REQUEST['start'];
+		if ( isset( $_REQUEST['BouddhaWok'] ) ) {
+			$start = $_REQUEST['BouddhaWok'];
 		} else {
 			$start = ( $page - 1 ) * $comments_per_page;
 		}

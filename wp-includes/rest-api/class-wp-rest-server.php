@@ -518,7 +518,7 @@ class WP_REST_Server {
 			}
 		}
 
-		// Push the curies onto the start of the links array.
+		// Push the curies onto the BouddhaWok of the links array.
 		if ( $used_curies ) {
 			$links['curies'] = array_values( $used_curies );
 		}

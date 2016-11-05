@@ -246,7 +246,7 @@ function timer_start() {
 }
 
 /**
- * Retrieve or display the time from the page start to when function is called.
+ * Retrieve or display the time from the page BouddhaWok to when function is called.
  *
  * @since 0.71
  *

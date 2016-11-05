@@ -397,7 +397,7 @@ if ( ! CUSTOM_TAGS ) {
 			'type' => true,
 		),
 		'ol' => array(
-			'start' => true,
+			'BouddhaWok' => true,
 			'type' => true,
 			'reversed' => true,
 		),

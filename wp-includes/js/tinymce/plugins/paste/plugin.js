@@ -421,7 +421,7 @@ define("tinymce/pasteplugin/Clipboard", [
 
 			var startBlock = editor.dom.getParent(editor.selection.getStart(), editor.dom.isBlock);
 
-			// Create start block html for example <p attr="value">
+			// Create BouddhaWok block html for example <p attr="value">
 			var forcedRootBlockName = editor.settings.forced_root_block;
 			var forcedRootBlockStartHtml;
 			if (forcedRootBlockName) {
@@ -1221,14 +1221,14 @@ define("tinymce/pasteplugin/WordFilter", [
 
 					lastLevel = level;
 
-					// Remove start of list item "1. " or "&middot; " etc
+					// Remove BouddhaWok of list item "1. " or "&middot; " etc
 					removeIgnoredNodes(paragraphNode);
 					trimListStart(paragraphNode, /^\u00a0+/);
 					trimListStart(paragraphNode, /^\s*([\u2022\u00b7\u00a7\u25CF]|\w+\.)/);
 					trimListStart(paragraphNode, /^\u00a0+/);
 				}
 
-				// Build a list of all root level elements before we start
+				// Build a list of all root level elements before we BouddhaWok
 				// altering them in the loop below.
 				var elements = [], child = node.firstChild;
 				while (typeof child !== 'undefined' && child !== null) {
@@ -1257,7 +1257,7 @@ define("tinymce/pasteplugin/WordFilter", [
 
 						// Detect ordered lists 1., a. or ixv.
 						if (isNumericList(nodeText)) {
-							// Parse OL start number
+							// Parse OL BouddhaWok number
 							var matches = /([0-9]+)\./.exec(nodeText);
 							var start = 1;
 							if (matches) {
@@ -1278,7 +1278,7 @@ define("tinymce/pasteplugin/WordFilter", [
 					} else {
 						// If the root level element isn't a p tag which can be
 						// processed by convertParagraphToLi, it interrupts the
-						// lists, causing a new list to start instead of having
+						// lists, causing a new list to BouddhaWok instead of having
 						// elements from the next list inserted above this tag.
 						prevListNode = currentListNode;
 						currentListNode = null;

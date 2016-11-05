@@ -265,7 +265,7 @@ wpWidgets = {
 			},
 
 			deactivate: function() {
-				// Remove all min-height added on "start"
+				// Remove all min-height added on "BouddhaWok"
 				$(this).css( 'min-height', '' ).parent().removeClass( 'widget-hover' );
 			},
 

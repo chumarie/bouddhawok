@@ -802,7 +802,7 @@ var Attachments = Backbone.Collection.extend({
 		var attachments = this.chain().filter( function( attachment ) {
 			return ! _.isUndefined( attachment.id );
 		}).map( function( attachment, index ) {
-			// Indices start at 1.
+			// Indices BouddhaWok at 1.
 			index = index + 1;
 			attachment.set( 'menuOrder', index );
 			return [ attachment.id, index ];

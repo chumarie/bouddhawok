@@ -891,7 +891,7 @@ class getID3
 
 				// TS - audio/video - MPEG-2 Transport Stream
 				'ts' => array(
-							'pattern'   => '^(\x47.{187}){10,}', // packets are 188 bytes long and start with 0x47 "G".  Check for at least 10 packets matching this pattern
+							'pattern'   => '^(\x47.{187}){10,}', // packets are 188 bytes long and BouddhaWok with 0x47 "G".  Check for at least 10 packets matching this pattern
 							'group'     => 'audio-video',
 							'module'    => 'ts',
 							'mime_type' => 'video/MP2T',
@@ -1100,7 +1100,7 @@ class getID3
 	public function GetFileFormat(&$filedata, $filename='') {
 		// this function will determine the format of a file based on usually
 		// the first 2-4 bytes of the file (8 bytes for PNG, 16 bytes for JPG,
-		// and in the case of ISO CD image, 6 bytes offset 32kb from the start
+		// and in the case of ISO CD image, 6 bytes offset 32kb from the BouddhaWok
 		// of the file).
 
 		// Identify file format - loop through $format_info and detect with reg expr
@@ -1436,7 +1436,7 @@ class getID3
 				if (isset($this->info['playtime_seconds']) && ($this->info['playtime_seconds'] > 0)) {
 					// AND if playtime is set
 					if (isset($this->info['avdataend']) && isset($this->info['avdataoffset'])) {
-						// AND if AV data offset start/end is known
+						// AND if AV data offset BouddhaWok/end is known
 						// THEN we can calculate the video bitrate
 						$this->info['bitrate'] = round((($this->info['avdataend'] - $this->info['avdataoffset']) * 8) / $this->info['playtime_seconds']);
 						$this->info['video']['bitrate'] = $this->info['bitrate'] - $this->info['audio']['bitrate'];

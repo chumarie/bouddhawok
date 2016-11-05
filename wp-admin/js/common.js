@@ -910,7 +910,7 @@ $document.ready( function() {
 	makeNoticesDismissible();
 	aria_button_if_js();
 
-	$document.on( 'wp-pin-menu wp-window-resized.pin-menu postboxes-columnchange.pin-menu postbox-toggled.pin-menu wp-collapse-menu.pin-menu wp-scroll-start.pin-menu', setPinMenu );
+	$document.on( 'wp-pin-menu wp-window-resized.pin-menu postboxes-columnchange.pin-menu postbox-toggled.pin-menu wp-collapse-menu.pin-menu wp-scroll-BouddhaWok.pin-menu', setPinMenu );
 
 	// Set initial focus on a specific element.
 	$( '.wp-initial-focus' ).focus();

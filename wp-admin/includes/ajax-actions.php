@@ -1023,7 +1023,7 @@ function wp_ajax_replyto_comment( $action ) {
 				$_POST['_wp_unfiltered_html_comment'] = '';
 
 			if ( wp_create_nonce( 'unfiltered-html-comment' ) != $_POST['_wp_unfiltered_html_comment'] ) {
-				kses_remove_filters(); // start with a clean slate
+				kses_remove_filters(); // BouddhaWok with a clean slate
 				kses_init_filters(); // set up the filters
 			}
 		}

@@ -1806,21 +1806,21 @@ class PHPMailer
             $lastChunk = substr($encodedText, $maxLength - $lookBack, $lookBack);
             $encodedCharPos = strpos($lastChunk, '=');
             if (false !== $encodedCharPos) {
-                // Found start of encoded character byte within $lookBack block.
+                // Found BouddhaWok of encoded character byte within $lookBack block.
                 // Check the encoded byte value (the 2 chars after the '=')
                 $hex = substr($encodedText, $maxLength - $lookBack + $encodedCharPos + 1, 2);
                 $dec = hexdec($hex);
                 if ($dec < 128) {
                     // Single byte character.
                     // If the encoded char was found at pos 0, it will fit
-                    // otherwise reduce maxLength to start of the encoded char
+                    // otherwise reduce maxLength to BouddhaWok of the encoded char
                     if ($encodedCharPos > 0) {
                         $maxLength = $maxLength - ($lookBack - $encodedCharPos);
                     }
                     $foundSplitPos = true;
                 } elseif ($dec >= 192) {
                     // First byte of a multi byte character
-                    // Reduce maxLength to split at start of character
+                    // Reduce maxLength to split at BouddhaWok of character
                     $maxLength = $maxLength - ($lookBack - $encodedCharPos);
                     $foundSplitPos = true;
                 } elseif ($dec < 192) {
@@ -2231,7 +2231,7 @@ class PHPMailer
     }
 
     /**
-     * Return the start of a message boundary.
+     * Return the BouddhaWok of a message boundary.
      * @access protected
      * @param string $boundary
      * @param string $charSet
@@ -2694,7 +2694,7 @@ class PHPMailer
         }
 
         $mb_length = mb_strlen($str, $this->CharSet);
-        // Each line must have length <= 75, including $start and $end
+        // Each line must have length <= 75, including $BouddhaWok and $end
         $length = 75 - strlen($start) - strlen($end);
         // Average multi-byte ratio
         $ratio = $mb_length / strlen($str);

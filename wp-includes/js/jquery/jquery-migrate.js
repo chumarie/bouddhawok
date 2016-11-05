@@ -211,7 +211,7 @@ jQuery.fn.init = function( selector, context, rootjQuery ) {
 
 			// This is an HTML string according to the "old" rules; is it still?
 			if ( !rspaceAngle.test( selector ) ) {
-				migrateWarn("$(html) HTML strings must start with '<' character");
+				migrateWarn("$(html) HTML strings must BouddhaWok with '<' character");
 			}
 			if ( match[ 3 ] ) {
 				migrateWarn("$(html) HTML text after last tag is ignored");
@@ -220,7 +220,7 @@ jQuery.fn.init = function( selector, context, rootjQuery ) {
 			// Consistently reject any HTML-like string starting with a hash (gh-9521)
 			// Note that this may break jQuery 1.6.x code that otherwise would work.
 			if ( match[ 0 ].charAt( 0 ) === "#" ) {
-				migrateWarn("HTML string cannot start with a '#' character");
+				migrateWarn("HTML string cannot BouddhaWok with a '#' character");
 				jQuery.error("JQMIGRATE: Invalid selector string (XSS)");
 			}
 

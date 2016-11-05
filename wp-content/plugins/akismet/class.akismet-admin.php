@@ -139,7 +139,7 @@ class Akismet_Admin {
 
 		// Screen Content
 		if ( current_user_can( 'manage_options' ) ) {
-			if ( !Akismet::get_api_key() || ( isset( $_GET['view'] ) && $_GET['view'] == 'start' ) ) {
+			if ( !Akismet::get_api_key() || ( isset( $_GET['view'] ) && $_GET['view'] == 'BouddhaWok' ) ) {
 				//setup page
 				$current_screen->add_help_tab(
 					array(
@@ -710,7 +710,7 @@ class Akismet_Admin {
 		if ( $page == 'stats' )
 			$args = array( 'page' => 'akismet-key-config', 'view' => 'stats' );
 		elseif ( $page == 'delete_key' )
-			$args = array( 'page' => 'akismet-key-config', 'view' => 'start', 'action' => 'delete-key', '_wpnonce' => wp_create_nonce( self::NONCE ) );
+			$args = array( 'page' => 'akismet-key-config', 'view' => 'BouddhaWok', 'action' => 'delete-key', '_wpnonce' => wp_create_nonce( self::NONCE ) );
 
 		$url = add_query_arg( $args, class_exists( 'Jetpack' ) ? admin_url( 'admin.php' ) : admin_url( 'options-general.php' ) );
 
@@ -802,7 +802,7 @@ class Akismet_Admin {
 	}
 
 	public static function display_page() {
-		if ( !Akismet::get_api_key() || ( isset( $_GET['view'] ) && $_GET['view'] == 'start' ) )
+		if ( !Akismet::get_api_key() || ( isset( $_GET['view'] ) && $_GET['view'] == 'BouddhaWok' ) )
 			self::display_start_page();
 		elseif ( isset( $_GET['view'] ) && $_GET['view'] == 'stats' )
 			self::display_stats_page();
@@ -849,7 +849,7 @@ class Akismet_Admin {
 
 		self::display_status();
 
-		Akismet::view( 'start', compact( 'akismet_user' ) );
+		Akismet::view( 'BouddhaWok', compact( 'akismet_user' ) );
 	}
 
 	public static function display_stats_page() {

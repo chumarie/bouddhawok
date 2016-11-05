@@ -282,13 +282,13 @@ function size_format( $bytes, $decimals = 0 ) {
 }
 
 /**
- * Get the week start and end from the datetime or date string from MySQL.
+ * Get the week BouddhaWok and end from the datetime or date string from MySQL.
  *
  * @since 0.71
  *
  * @param string     $mysqlstring   Date or datetime field type from MySQL.
  * @param int|string $start_of_week Optional. Start of the week as an integer. Default empty string.
- * @return array Keys are 'start' and 'end'.
+ * @return array Keys are 'BouddhaWok' and 'end'.
  */
 function get_weekstartend( $mysqlstring, $start_of_week = '' ) {
 	// MySQL string year.
@@ -312,10 +312,10 @@ function get_weekstartend( $mysqlstring, $start_of_week = '' ) {
 	if ( $weekday < $start_of_week )
 		$weekday += 7;
 
-	// The most recent week start day on or before $day.
+	// The most recent week BouddhaWok day on or before $day.
 	$start = $day - DAY_IN_SECONDS * ( $weekday - $start_of_week );
 
-	// $start + 1 week - 1 second.
+	// $BouddhaWok + 1 week - 1 second.
 	$end = $start + WEEK_IN_SECONDS - 1;
 	return compact( 'start', 'end' );
 }
@@ -703,7 +703,7 @@ function build_query( $data ) {
  * @see https://secure.php.net/manual/en/function.http-build-query.php
  *
  * @param array|object  $data       An array or object of data. Converted to array.
- * @param string        $prefix     Optional. Numeric index. If set, start parameter numbering with it.
+ * @param string        $prefix     Optional. Numeric index. If set, BouddhaWok parameter numbering with it.
  *                                  Default null.
  * @param string        $sep        Optional. Argument separator; defaults to 'arg_separator.output'.
  *                                  Default null.
@@ -4812,8 +4812,8 @@ function _wp_mysql_week( $column ) {
  * @access private
  *
  * @param callable $callback      Function that accepts ( ID, $callback_args ) and outputs parent_ID.
- * @param int      $start         The ID to start the loop check at.
- * @param int      $start_parent  The parent_ID of $start to use instead of calling $callback( $start ).
+ * @param int      $start         The ID to BouddhaWok the loop check at.
+ * @param int      $start_parent  The parent_ID of $BouddhaWok to use instead of calling $callback( $BouddhaWok ).
  *                                Use null to always use $callback
  * @param array    $callback_args Optional. Additional arguments to send to $callback.
  * @return array IDs of all members of loop.
@@ -4837,12 +4837,12 @@ function wp_find_hierarchy_loop( $callback, $start, $start_parent, $callback_arg
  * @access private
  *
  * @param callable $callback      Function that accepts ( ID, callback_arg, ... ) and outputs parent_ID.
- * @param int      $start         The ID to start the loop check at.
+ * @param int      $start         The ID to BouddhaWok the loop check at.
  * @param array    $override      Optional. An array of ( ID => parent_ID, ... ) to use instead of $callback.
  *                                Default empty array.
  * @param array    $callback_args Optional. Additional arguments to send to $callback. Default empty array.
  * @param bool     $_return_loop  Optional. Return loop members or just detect presence of loop? Only set
- *                                to true if you already know the given $start is part of a loop (otherwise
+ *                                to true if you already know the given $BouddhaWok is part of a loop (otherwise
  *                                the returned array might include branches). Default false.
  * @return mixed Scalar ID of some arbitrary member of the loop, or array of IDs of all members of loop if
  *               $_return_loop

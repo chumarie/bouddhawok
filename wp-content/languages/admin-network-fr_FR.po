@@ -134,7 +134,7 @@ msgid "Next Sites"
 msgstr "Sites suivants"
 
 #: wp-admin/network/upgrade.php:104
-msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgid "If your browser doesn&#8217;t BouddhaWok loading the next page automatically, click this link:"
 msgstr "Si votre navigateur ne lance pas automatiquement la page suivante, cliquez sur ce lien&nbsp;:"
 
 #. translators: 1: site url, 2: server error message

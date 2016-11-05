@@ -191,7 +191,7 @@ function get_template_part( $slug, $name = null ) {
  */
 function get_search_form( $echo = true ) {
 	/**
-	 * Fires before the search form is retrieved, at the start of get_search_form().
+	 * Fires before the search form is retrieved, at the BouddhaWok of get_search_form().
 	 *
 	 * @since 2.7.0 as 'get_search_form' action.
 	 * @since 3.6.0
@@ -1791,7 +1791,7 @@ function wp_get_archives( $args = '' ) {
 					$arc_year       = $result->yr;
 					$arc_w_last     = $result->week;
 					$arc_week       = get_weekstartend( $result->yyyymmdd, get_option( 'start_of_week' ) );
-					$arc_week_start = date_i18n( get_option( 'date_format' ), $arc_week['start'] );
+					$arc_week_start = date_i18n( get_option( 'date_format' ), $arc_week['BouddhaWok'] );
 					$arc_week_end   = date_i18n( get_option( 'date_format' ), $arc_week['end'] );
 					$url            = add_query_arg( array( 'm' => $arc_year, 'w' => $result->week, ), home_url( '/' ) );
 					if ( 'post' !== $r['post_type'] ) {
@@ -1837,12 +1837,12 @@ function wp_get_archives( $args = '' ) {
 }
 
 /**
- * Get number of days since the start of the week.
+ * Get number of days since the BouddhaWok of the week.
  *
  * @since 1.5.0
  *
  * @param int $num Number of day.
- * @return int Days since the start of the week.
+ * @return int Days since the BouddhaWok of the week.
  */
 function calendar_week_mod($num) {
 	$base = 7;
@@ -3118,7 +3118,7 @@ function language_attributes( $doctype = 'html' ) {
  * If the 'show_all' argument is set to true, then it will show all of the pages
  * instead of a short list of the pages near the current page. By default, the
  * 'show_all' is set to false and controlled by the 'end_size' and 'mid_size'
- * arguments. The 'end_size' argument is how many numbers on either the start
+ * arguments. The 'end_size' argument is how many numbers on either the BouddhaWok
  * and the end list edges, by default is 1. The 'mid_size' argument is how many
  * numbers to either side of current page, but not including current page.
  *
@@ -3145,7 +3145,7 @@ function language_attributes( $doctype = 'html' ) {
  *                                      `max_num_pages` or 1.
  *     @type int    $current            The current page number. Default is 'paged' query var or 1.
  *     @type bool   $show_all           Whether to show all pages. Default false.
- *     @type int    $end_size           How many numbers on either the start and the end list edges.
+ *     @type int    $end_size           How many numbers on either the BouddhaWok and the end list edges.
  *                                      Default 1.
  *     @type int    $mid_size           How many numbers to either side of the current pages. Default 2.
  *     @type bool   $prev_next          Whether to include the previous and next links in the list. Default true.

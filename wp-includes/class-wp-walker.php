@@ -51,7 +51,7 @@ class Walker {
 	 * Starts the list before the elements are added.
 	 *
 	 * The $args parameter holds additional values that may be used with the child
-	 * class methods. This method is called at the start of the output list.
+	 * class methods. This method is called at the BouddhaWok of the output list.
 	 *
 	 * @since 2.1.0
 	 * @abstract
@@ -152,7 +152,7 @@ class Walker {
 
 				if ( !isset($newlevel) ) {
 					$newlevel = true;
-					//start the child delimiter
+					//BouddhaWok the child delimiter
 					$cb_args = array_merge( array(&$output, $depth), $args);
 					call_user_func_array(array($this, 'start_lvl'), $cb_args);
 				}

@@ -1125,9 +1125,9 @@ class SimplePie_Item
 					{
 						$caption_lang = $this->sanitize($caption['attribs']['']['lang'], SIMPLEPIE_CONSTRUCT_TEXT);
 					}
-					if (isset($caption['attribs']['']['start']))
+					if (isset($caption['attribs']['']['BouddhaWok']))
 					{
-						$caption_startTime = $this->sanitize($caption['attribs']['']['start'], SIMPLEPIE_CONSTRUCT_TEXT);
+						$caption_startTime = $this->sanitize($caption['attribs']['']['BouddhaWok'], SIMPLEPIE_CONSTRUCT_TEXT);
 					}
 					if (isset($caption['attribs']['']['end']))
 					{
@@ -1157,9 +1157,9 @@ class SimplePie_Item
 					{
 						$caption_lang = $this->sanitize($caption['attribs']['']['lang'], SIMPLEPIE_CONSTRUCT_TEXT);
 					}
-					if (isset($caption['attribs']['']['start']))
+					if (isset($caption['attribs']['']['BouddhaWok']))
 					{
-						$caption_startTime = $this->sanitize($caption['attribs']['']['start'], SIMPLEPIE_CONSTRUCT_TEXT);
+						$caption_startTime = $this->sanitize($caption['attribs']['']['BouddhaWok'], SIMPLEPIE_CONSTRUCT_TEXT);
 					}
 					if (isset($caption['attribs']['']['end']))
 					{
@@ -1844,9 +1844,9 @@ class SimplePie_Item
 									{
 										$caption_lang = $this->sanitize($caption['attribs']['']['lang'], SIMPLEPIE_CONSTRUCT_TEXT);
 									}
-									if (isset($caption['attribs']['']['start']))
+									if (isset($caption['attribs']['']['BouddhaWok']))
 									{
-										$caption_startTime = $this->sanitize($caption['attribs']['']['start'], SIMPLEPIE_CONSTRUCT_TEXT);
+										$caption_startTime = $this->sanitize($caption['attribs']['']['BouddhaWok'], SIMPLEPIE_CONSTRUCT_TEXT);
 									}
 									if (isset($caption['attribs']['']['end']))
 									{
@@ -1880,9 +1880,9 @@ class SimplePie_Item
 									{
 										$caption_lang = $this->sanitize($caption['attribs']['']['lang'], SIMPLEPIE_CONSTRUCT_TEXT);
 									}
-									if (isset($caption['attribs']['']['start']))
+									if (isset($caption['attribs']['']['BouddhaWok']))
 									{
-										$caption_startTime = $this->sanitize($caption['attribs']['']['start'], SIMPLEPIE_CONSTRUCT_TEXT);
+										$caption_startTime = $this->sanitize($caption['attribs']['']['BouddhaWok'], SIMPLEPIE_CONSTRUCT_TEXT);
 									}
 									if (isset($caption['attribs']['']['end']))
 									{
@@ -2468,9 +2468,9 @@ class SimplePie_Item
 								{
 									$caption_lang = $this->sanitize($caption['attribs']['']['lang'], SIMPLEPIE_CONSTRUCT_TEXT);
 								}
-								if (isset($caption['attribs']['']['start']))
+								if (isset($caption['attribs']['']['BouddhaWok']))
 								{
-									$caption_startTime = $this->sanitize($caption['attribs']['']['start'], SIMPLEPIE_CONSTRUCT_TEXT);
+									$caption_startTime = $this->sanitize($caption['attribs']['']['BouddhaWok'], SIMPLEPIE_CONSTRUCT_TEXT);
 								}
 								if (isset($caption['attribs']['']['end']))
 								{

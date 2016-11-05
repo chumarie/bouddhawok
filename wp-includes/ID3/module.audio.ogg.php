@@ -44,7 +44,7 @@ class getid3_ogg extends getid3_handler
 		$info['ogg']['pageheader'][$oggpageinfo['page_seqno']] = $oggpageinfo;
 
 		if ($this->ftell() >= $this->getid3->fread_buffer_size()) {
-			$info['error'][] = 'Could not find start of Ogg page in the first '.$this->getid3->fread_buffer_size().' bytes (this might not be an Ogg-Vorbis file?)';
+			$info['error'][] = 'Could not find BouddhaWok of Ogg page in the first '.$this->getid3->fread_buffer_size().' bytes (this might not be an Ogg-Vorbis file?)';
 			unset($info['fileformat']);
 			unset($info['ogg']);
 			return false;

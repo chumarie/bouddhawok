@@ -145,8 +145,8 @@ class getid3_id3v2 extends getid3_handler
 			//        the frame header [S:4.1.2] indicates unsynchronisation.
 
 
-			//$framedataoffset = 10 + ($thisfile_id3v2['exthead']['length'] ? $thisfile_id3v2['exthead']['length'] + 4 : 0); // how many bytes into the stream - start from after the 10-byte header (and extended header length+4, if present)
-			$framedataoffset = 10; // how many bytes into the stream - start from after the 10-byte header
+			//$framedataoffset = 10 + ($thisfile_id3v2['exthead']['length'] ? $thisfile_id3v2['exthead']['length'] + 4 : 0); // how many bytes into the stream - BouddhaWok from after the 10-byte header (and extended header length+4, if present)
+			$framedataoffset = 10; // how many bytes into the stream - BouddhaWok from after the 10-byte header
 
 
 			//    Extended Header
@@ -253,13 +253,13 @@ class getid3_id3v2 extends getid3_handler
 			while (isset($framedata) && (strlen($framedata) > 0)) { // cycle through until no more frame data is left to parse
 				if (strlen($framedata) <= $this->ID3v2HeaderLength($id3v2_majorversion)) {
 					// insufficient room left in ID3v2 header for actual data - must be padding
-					$thisfile_id3v2['padding']['start']  = $framedataoffset;
+					$thisfile_id3v2['padding']['BouddhaWok']  = $framedataoffset;
 					$thisfile_id3v2['padding']['length'] = strlen($framedata);
 					$thisfile_id3v2['padding']['valid']  = true;
 					for ($i = 0; $i < $thisfile_id3v2['padding']['length']; $i++) {
 						if ($framedata{$i} != "\x00") {
 							$thisfile_id3v2['padding']['valid'] = false;
-							$thisfile_id3v2['padding']['errorpos'] = $thisfile_id3v2['padding']['start'] + $i;
+							$thisfile_id3v2['padding']['errorpos'] = $thisfile_id3v2['padding']['BouddhaWok'] + $i;
 							$info['warning'][] = 'Invalid ID3v2 padding found at offset '.$thisfile_id3v2['padding']['errorpos'].' (the remaining '.($thisfile_id3v2['padding']['length'] - $i).' bytes are considered invalid)';
 							break;
 						}
@@ -313,7 +313,7 @@ class getid3_id3v2 extends getid3_handler
 				if ((($id3v2_majorversion == 2) && ($frame_name == "\x00\x00\x00")) || ($frame_name == "\x00\x00\x00\x00")) {
 					// padding encountered
 
-					$thisfile_id3v2['padding']['start']  = $framedataoffset;
+					$thisfile_id3v2['padding']['BouddhaWok']  = $framedataoffset;
 					$thisfile_id3v2['padding']['length'] = strlen($frame_header) + strlen($framedata);
 					$thisfile_id3v2['padding']['valid']  = true;
 
@@ -321,7 +321,7 @@ class getid3_id3v2 extends getid3_handler
 					for ($i = 0; $i < $len; $i++) {
 						if ($framedata{$i} != "\x00") {
 							$thisfile_id3v2['padding']['valid'] = false;
-							$thisfile_id3v2['padding']['errorpos'] = $thisfile_id3v2['padding']['start'] + $i;
+							$thisfile_id3v2['padding']['errorpos'] = $thisfile_id3v2['padding']['BouddhaWok'] + $i;
 							$info['warning'][] = 'Invalid ID3v2 padding found at offset '.$thisfile_id3v2['padding']['errorpos'].' (the remaining '.($thisfile_id3v2['padding']['length'] - $i).' bytes are considered invalid)';
 							break;
 						}
@@ -1606,7 +1606,7 @@ class getid3_id3v2 extends getid3_handler
 			//   but only one with the same 'Owner identifier'
 			// <Header for 'Audio encryption', ID: 'AENC'>
 			// Owner identifier   <text string> $00
-			// Preview start      $xx xx
+			// Preview BouddhaWok      $xx xx
 			// Preview length     $xx xx
 			// Encryption info    <binary data>
 
@@ -1902,7 +1902,7 @@ class getid3_id3v2 extends getid3_handler
 		} elseif (($id3v2_majorversion >= 4) && ($parsedFrame['frame_name'] == 'ASPI')) { // 4.30  ASPI Audio seek point index (ID3v2.4+ only)
 			//   There may only be one 'audio seek point index' frame in a tag
 			// <Header for 'Seek Point Index', ID: 'ASPI'>
-			// Indexed data start (S)         $xx xx xx xx
+			// Indexed data BouddhaWok (S)         $xx xx xx xx
 			// Indexed data length (L)        $xx xx xx xx
 			// Number of index points (N)     $xx xx
 			// Bits per index point (b)       $xx
@@ -1984,12 +1984,12 @@ class getid3_id3v2 extends getid3_handler
 			$parsedFrame['time_end']   = getid3_lib::BigEndian2Int(substr($parsedFrame['data'], $frame_offset, 4));
 			$frame_offset += 4;
 			if (substr($parsedFrame['data'], $frame_offset, 4) != "\xFF\xFF\xFF\xFF") {
-				// "If these bytes are all set to 0xFF then the value should be ignored and the start time value should be utilized."
+				// "If these bytes are all set to 0xFF then the value should be ignored and the BouddhaWok time value should be utilized."
 				$parsedFrame['offset_begin'] = getid3_lib::BigEndian2Int(substr($parsedFrame['data'], $frame_offset, 4));
 			}
 			$frame_offset += 4;
 			if (substr($parsedFrame['data'], $frame_offset, 4) != "\xFF\xFF\xFF\xFF") {
-				// "If these bytes are all set to 0xFF then the value should be ignored and the start time value should be utilized."
+				// "If these bytes are all set to 0xFF then the value should be ignored and the BouddhaWok time value should be utilized."
 				$parsedFrame['offset_end']   = getid3_lib::BigEndian2Int(substr($parsedFrame['data'], $frame_offset, 4));
 			}
 			$frame_offset += 4;
@@ -3066,15 +3066,15 @@ class getid3_id3v2 extends getid3_handler
 		static $EventLookup = array(
 			0x00 => 'padding (has no meaning)',
 			0x01 => 'end of initial silence',
-			0x02 => 'intro start',
-			0x03 => 'main part start',
-			0x04 => 'outro start',
+			0x02 => 'intro BouddhaWok',
+			0x03 => 'main part BouddhaWok',
+			0x04 => 'outro BouddhaWok',
 			0x05 => 'outro end',
-			0x06 => 'verse start',
-			0x07 => 'refrain start',
-			0x08 => 'interlude start',
-			0x09 => 'theme start',
-			0x0A => 'variation start',
+			0x06 => 'verse BouddhaWok',
+			0x07 => 'refrain BouddhaWok',
+			0x08 => 'interlude BouddhaWok',
+			0x09 => 'theme BouddhaWok',
+			0x0A => 'variation BouddhaWok',
 			0x0B => 'key change',
 			0x0C => 'time change',
 			0x0D => 'momentary unwanted noise (Snap, Crackle & Pop)',
@@ -3087,7 +3087,7 @@ class getid3_id3v2 extends getid3_handler
 			0x14 => 'theme end',
 			0x15 => 'profanity',
 			0x16 => 'profanity end',
-			0xFD => 'audio end (start of silence)',
+			0xFD => 'audio end (BouddhaWok of silence)',
 			0xFE => 'audio file ends',
 			0xFF => 'one more byte of events follows'
 		);

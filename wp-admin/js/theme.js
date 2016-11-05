@@ -743,7 +743,7 @@ themes.view.Details = wp.Backbone.View.extend({
 	// Handles .disabled classes for next/previous buttons
 	navigation: function() {
 
-		// Disable Left/Right when at the start or end of the collection
+		// Disable Left/Right when at the BouddhaWok or end of the collection
 		if ( this.model.cid === this.model.collection.at(0).cid ) {
 			this.$el.find( '.left' )
 				.addClass( 'disabled' )

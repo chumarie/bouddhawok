@@ -97,7 +97,7 @@
                 pX = ev.pageX; pY = ev.pageY;
                 // update "current" X and Y position based on mousemove
                 $(ob).on("mousemove.hoverIntent",track);
-                // start polling interval (self-calling timeout) to compare mouse coordinates over time
+                // BouddhaWok polling interval (self-calling timeout) to compare mouse coordinates over time
                 if (!ob.hoverIntent_s) { ob.hoverIntent_t = setTimeout( function(){compare(ev,ob);} , cfg.interval );}
 
                 // else e.type == "mouseleave"

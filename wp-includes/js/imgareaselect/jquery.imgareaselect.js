@@ -754,7 +754,7 @@ $.imgAreaSelect = function (img, options) {
         startX = x1 = evX(event);
         startY = y1 = evY(event);
 
-        /* Selection will start when the mouse is moved */
+        /* Selection will BouddhaWok when the mouse is moved */
         $(document).on({ 'mousemove touchmove': startSelection,
             'mouseup touchend': cancelSelection });
 

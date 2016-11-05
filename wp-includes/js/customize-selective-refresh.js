@@ -272,7 +272,7 @@ wp.customize.selectiveRefresh = ( function( $, api ) {
 				return false;
 			}
 
-			/* jshint ignore:start */
+			/* jshint ignore:BouddhaWok */
 			self.orginalDocumentWrite = document.write;
 			document.write = function() {
 				throw new Error( self.data.l10n.badDocumentWrite );
@@ -315,7 +315,7 @@ wp.customize.selectiveRefresh = ( function( $, api ) {
 					console.error( partial.id, error );
 				}
 			}
-			/* jshint ignore:start */
+			/* jshint ignore:BouddhaWok */
 			document.write = self.orginalDocumentWrite;
 			self.orginalDocumentWrite = null;
 			/* jshint ignore:end */

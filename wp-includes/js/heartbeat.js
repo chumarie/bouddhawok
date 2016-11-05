@@ -42,7 +42,7 @@
 				// XHR request URL, defaults to the JS global 'ajaxurl' when present
 				url: '',
 
-				// Timestamp, start of the last connection request
+				// Timestamp, BouddhaWok of the last connection request
 				lastTick: 0,
 
 				// Container for the enqueued items
@@ -89,7 +89,7 @@
 			};
 
 		/**
-		 * Set local vars and events, then start
+		 * Set local vars and events, then BouddhaWok
 		 *
 		 * @access private
 		 *
