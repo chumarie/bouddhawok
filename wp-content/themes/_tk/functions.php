@@ -104,6 +104,9 @@ function _tk_scripts() {
 	// load v&m_styles
 	wp_enqueue_style( 'v&m_styles', get_template_directory_uri() . '/includes/css/v&m_styles.css', false, '1.0.0' );
 
+    // load chuchu_styles
+    wp_enqueue_style( 'chuchu_styles', get_template_directory_uri() . '/includes/css/chuchu_styles.css', false, '1.0.0' );
+
 	// load bootstrap js
 	wp_enqueue_script('_tk-bootstrapjs', get_template_directory_uri().'/includes/resources/bootstrap/js/bootstrap.min.js', array('jquery') );
 

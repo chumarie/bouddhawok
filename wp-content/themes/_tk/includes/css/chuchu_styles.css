@@ -1,3 +1,29 @@
+
 /*===========================================
 ================== CONCEPT ==================
 ===========================================*/
+
+.main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #5A5A5A;
+}
+
+.main-title img{
+    width: 5%;
+    margin-top: 10px;
+}
+.main-title h3{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom:20px;
+    color: #fff;
+}
+.main-title p{
+    width: 50%;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 30px;
+}
