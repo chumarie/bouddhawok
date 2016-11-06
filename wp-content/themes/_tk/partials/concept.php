@@ -1,11 +1,16 @@
+<?php
+	$id = get_the_ID();
+?>
 <section id="concept" class="padding-70 bgBlack">
 	<div class="row">
 		<div class="main-title">
-			<h2 class="title colorGold">C O N C E P T</h2>
-            <img src="<?php echo get_template_directory_uri(); ?>/includes/img/cutlery.svg">
-			<h3>Restaurant buffet à volonté</h3>
-			<p>Un restaurant de quartier idéalement situé à deux pas de Ikea, boulevard Jean Monnet. Ensoleillée ou prisée en soirée, la terrasse de notre trattoria italienne de luxe, Le Casa Luca Niel, vous offre un instant privilégié le temps d’une escapade culinaire dans le Paris chic et branché du 17ème arrondissement.
-				Tout est fait maison.</p>
+			<h2 class="title colorGold"><?php echo get_field('title_concept', $id); ?></h2>
+			<img src="<?php echo get_field('icon_concept', $id); ?>">
+			<h3 class="subtitle"><?php echo get_field('subtitle_concept', $id); ?></h3>
 		</div>
+		<div class="content">
+			<?php echo get_field('contenu_texte_section_concept', $id); ?>
+		</div>
+
 	</div><!-- end .row -->
 </section><!-- end #concept -->
