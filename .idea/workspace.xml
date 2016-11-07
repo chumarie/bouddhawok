@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1cd9bf3-100a-4e7f-ba44-bea08484b31c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/38951243-asia-wallpapers-1024x640.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/38951243-asia-wallpapers-150x150.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/38951243-asia-wallpapers-300x188.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/38951243-asia-wallpapers-768x480.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/38951243-asia-wallpapers.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/Asia-Paper-Lantern-Hieroglyphs-City-Hd-Wallpaper-1024x640.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/Asia-Paper-Lantern-Hieroglyphs-City-Hd-Wallpaper-150x150.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/Asia-Paper-Lantern-Hieroglyphs-City-Hd-Wallpaper-300x188.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/Asia-Paper-Lantern-Hieroglyphs-City-Hd-Wallpaper-768x480.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/Asia-Paper-Lantern-Hieroglyphs-City-Hd-Wallpaper.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/cutlery-150x150.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/cutlery-300x272.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/11/cutlery.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/_tk/partials/bienvenue.php" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/partials/bienvenue.php" />
     </list>
@@ -47,8 +60,8 @@
       <file leaf-file-name="bienvenue.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/partials/bienvenue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="76">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,72 +187,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_tk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,7 +380,7 @@
       <workItem from="1478385224289" duration="654000" />
       <workItem from="1478386396082" duration="1192000" />
       <workItem from="1478387811314" duration="2242000" />
-      <workItem from="1478390860456" duration="5472000" />
+      <workItem from="1478390860456" duration="5805000" />
     </task>
     <task id="LOCAL-00001" summary="Creation du site wordpress">
       <created>1478216644144</created>
@@ -484,11 +431,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478473385710</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Police Helvetica">
+      <created>1478557415041</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1478557415041</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12157000" />
+    <option name="totallyTimeSpent" value="12490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -864,8 +818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/partials/bienvenue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="76">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

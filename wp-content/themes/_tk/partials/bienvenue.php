@@ -2,6 +2,7 @@
 	$id = get_the_ID();
 	$slider = get_field('slider', $id);
 ?>
+
 <section id="bienvenue" class="">
 	<div class="row">
 		<div id="ninja-slider">
