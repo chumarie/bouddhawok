@@ -1,5 +1,4 @@
 <?php
-	$id = get_the_ID();
 	$slider = get_field('slider', $id);
 ?>
 

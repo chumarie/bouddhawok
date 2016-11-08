@@ -126,6 +126,12 @@ function _tk_scripts() {
 	// Ninja slider
     wp_enqueue_style( 'ninja-slider_styles', get_template_directory_uri() . '/includes/libs/ninja-slider/ninja-slider.css' );
     wp_enqueue_script( 'ninja-slider-script', get_template_directory_uri() . '/includes/libs/ninja-slider/ninja-slider.js', array( 'jquery' ), '1.0.0' );
+
+    // Isotope
+    wp_enqueue_script( 'isotope-script', get_template_directory_uri() . '/includes/libs/isotope/isotope.min.js', array( 'jquery' ), '1.0.0' );
+
+
+
 }
 add_action( 'wp_enqueue_scripts', '_tk_scripts' );
 
