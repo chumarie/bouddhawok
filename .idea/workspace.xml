@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a1cd9bf3-100a-4e7f-ba44-bea08484b31c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/snazzy-maps/snazzymaps.php" afterPath="$PROJECT_DIR$/wp-content/plugins/snazzy-maps/snazzymaps.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/_tk/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/main.js" afterPath="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/_tk/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/_tk/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/_tk/includes/css/v&amp;m_styles.css" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/includes/css/v&amp;m_styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/_tk/partials/plats.php" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/partials/plats.php" />
     </list>
     <ignored path="bouddhawok.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,41 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="v&amp;m_styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="v&amp;m_styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/includes/css/v&amp;m_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/partials/map.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chuchu_styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/includes/css/chuchu_styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+            <state relative-caret-position="447">
+              <caret line="203" column="93" selection-start-line="203" selection-start-column="93" selection-end-line="203" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -68,18 +42,8 @@
       <file leaf-file-name="plats.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/partials/plats.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="361">
+              <caret line="25" column="101" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -88,18 +52,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="874">
+              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -127,19 +81,19 @@
         <option value="$PROJECT_DIR$/wp-content/themes/_tk/partials/pushes.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk/partials/maps.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk/templates/homepage.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/_tk/header.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/map.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/VMrestaurants.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/js/acf-input.min.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk/partials/concept.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/_tk/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/_tk/partials/plats.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/css/isotope.css" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/main.js" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk/partials/map.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk/includes/css/chuchu_styles.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk/partials/plats.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk/includes/css/v&amp;m_styles.css" />
       </list>
     </option>
@@ -152,9 +106,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -181,7 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,32 +166,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="11" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,87 +439,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced-custom-fields-pro" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced-custom-fields-pro" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouddhawok" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced-custom-fields-pro" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -684,6 +535,7 @@
       <workItem from="1478716487277" duration="248000" />
       <workItem from="1478717341893" duration="7621000" />
       <workItem from="1478726191465" duration="474000" />
+      <workItem from="1478726726926" duration="2749000" />
     </task>
     <task id="LOCAL-00001" summary="Creation du site wordpress">
       <created>1478216644144</created>
@@ -780,13 +632,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37497000" />
+    <option name="totallyTimeSpent" value="40246000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34236112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3470437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1077,7 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="0" column="27407" selection-start-line="0" selection-start-column="27407" selection-end-line="0" selection-end-column="27407" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,6 +958,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/VMrestaurants/css/isotope.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/VMrestaurants/libs/isotope/isotope.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="10" column="9346" selection-start-line="10" selection-start-column="9343" selection-end-line="10" selection-end-column="9346" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="55" column="91" selection-start-line="55" selection-start-column="91" selection-end-line="55" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/partials/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/partials/concept.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1115,89 +1020,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/footer.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/includes/css/chuchu_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="19">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/VMrestaurants/css/isotope.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/partials/plats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/VMrestaurants/libs/isotope/isotope.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="10" column="9346" selection-start-line="10" selection-start-column="9343" selection-end-line="10" selection-end-column="9346" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="361">
+          <caret line="25" column="101" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/includes/css/chuchu_styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="874">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/includes/css/v&amp;m_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/partials/map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="447">
+          <caret line="203" column="93" selection-start-line="203" selection-start-column="93" selection-end-line="203" selection-end-column="93" />
           <folding />
         </state>
       </provider>

@@ -8,12 +8,22 @@
     $categories = get_terms('plat-category');
 ?>
 
-<section id="plats" class="bgBlack">
+<section id="plats" class="bgBlack padding-top-100">
     <div class="row">
+
+        <div class="main-title">
+            <h2 class="title colorGold">
+                <span class="bgGold"></span>
+                NOS PLATS
+                <span class="bgGold"></span>
+            </h2>
+        </div>
+
+
         <div id="filters" class="button-group">
-            <button class="button is-checked" data-filter="*">Tout</button>
+            <span class="button is-checked" data-filter="*">Tout</span>
             <?php foreach($categories as $c): ?>
-            <button class="button" data-filter=".<?php echo $c->slug; ?>"><?php echo $c->name; ?></button>
+            <span class="button" data-filter=".<?php echo $c->slug; ?>"><?php echo $c->name; ?></span>
             <?php endforeach; ?>
         </div>
 

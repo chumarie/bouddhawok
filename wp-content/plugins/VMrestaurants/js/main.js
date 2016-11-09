@@ -2,7 +2,7 @@ jQuery(function($){
     "use strict";
 
     //scroll
-    $('ul#main-menu').find('a').on('click', function() { // Au clic sur un élément
+    $('.scrollingLinks').find('a').on('click', function() { // Au clic sur un élément
         var page = $(this).attr('href'); // Page cible
         var speed = 550; // Durée de l'animation (en ms)
         $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
@@ -45,23 +45,18 @@ jQuery(function($){
             };
 
             // bind filter button click
-            $('#filters').on( 'click', 'button', function() {
+            $('#filters').on( 'click', '.button', function() {
                 var filterValue = $( this ).attr('data-filter');
                 // use filterFn if matches value
                 filterValue = filterFns[ filterValue ] || filterValue;
                 $grid.isotope({ filter: filterValue });
             });
 
-            // bind sort button click
-            $('#sorts').on( 'click', 'button', function() {
-                var sortByValue = $(this).attr('data-sort-by');
-                $grid.isotope({ sortBy: sortByValue });
-            });
 
             // change is-checked class on buttons
             $('.button-group').each( function( i, buttonGroup ) {
                 var $buttonGroup = $( buttonGroup );
-                $buttonGroup.on( 'click', 'button', function() {
+                $buttonGroup.on( 'click', '.button', function() {
                     $buttonGroup.find('.is-checked').removeClass('is-checked');
                     $( this ).addClass('is-checked');
                 });

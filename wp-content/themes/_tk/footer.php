@@ -5,7 +5,7 @@
 
 <footer class="site-footer" role="contentinfo">
 	
-	<div id="btnBackToTop">
+	<div id="btnBackToTop" class="scrollingLinks">
 		<a href="#bienvenue"></a>
 	</div>
 
