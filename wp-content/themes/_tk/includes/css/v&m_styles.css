@@ -187,7 +187,7 @@ h1#logo a:hover { color: #f2a916; }
     margin: 0px 15px;
     position: relative;
 }
-#plats #filters .button:after { 
+#plats #filters .button:after {
     content: '';
     display: block;
     width: 0%;
