@@ -30,7 +30,7 @@ jQuery(function($){
                 }
             });
 
-// filter functions
+            // filter functions
             var filterFns = {
                 // show if number is greater than 50
                 numberGreaterThan50: function() {
@@ -44,7 +44,7 @@ jQuery(function($){
                 }
             };
 
-// bind filter button click
+            // bind filter button click
             $('#filters').on( 'click', 'button', function() {
                 var filterValue = $( this ).attr('data-filter');
                 // use filterFn if matches value
@@ -52,7 +52,7 @@ jQuery(function($){
                 $grid.isotope({ filter: filterValue });
             });
 
-// bind sort button click
+            // bind sort button click
             $('#sorts').on( 'click', 'button', function() {
                 var sortByValue = $(this).attr('data-sort-by');
                 $grid.isotope({ sortBy: sortByValue });

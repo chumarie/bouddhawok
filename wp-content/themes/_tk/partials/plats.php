@@ -8,7 +8,7 @@
     $categories = get_terms('plat-category');
 ?>
 
-<section id="plats" class="">
+<section id="plats" class="bgBlack">
     <div class="row">
         <div id="filters" class="button-group">
             <button class="button is-checked" data-filter="*">Tout</button>

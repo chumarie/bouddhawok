@@ -36,7 +36,7 @@
 .displaynone { display: none; }
 body {
     font-family: "HelveticaLC";
-    font-size: 16px;
+    font-size: 14px;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12, h1, .h1, h2, .h2, h3, .h3 {
     padding: 0;
@@ -50,8 +50,13 @@ ul, ol { margin: 0; padding: 0; }
 
 h2.title{
     font-family: "Abolition";
-    font-size: 2.7em;
+    font-size: 2.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+h2.title span { width: 100px; height: 2px; margin: 0px 20px 0px 10px; }
+
 .padding-top-100 { padding-top: 100px; }
 .padding-bottom-100 { padding-bottom: 100px; }
 .padding-100 { padding-top: 100px; padding-bottom: 100px; }
@@ -67,14 +72,17 @@ h2.title{
 /*===========================================
 ================== COLORS ==================
 ===========================================*/
-.colorGold { color: #f2a916; }
-.bgGold { background-color: #f2a916; }
+.colorGold { color: #f7c049; }
+.bgGold { background-color: #f7c049; }
 
 .colorBlack { color: #000; }
 .bgBlack { background-color: #000; }
 
 .colorWhite { color: #fff; }
 .bgWhite { background-color: #fff; }
+
+.colorGrey { color: #5A5A5A; }
+.bgGrey { background-color: #5A5A5A; }
 
 /*===========================================
 ================== HEADER ==================
@@ -104,6 +112,8 @@ h1#logo a:hover { color: #f2a916; }
 /*===========================================
 ================== PLATS ==================
 ===========================================*/
+#plats { }
+
 
 /*===========================================
 ================== PUSHES ==================
@@ -145,4 +155,62 @@ h1#logo a:hover { color: #f2a916; }
 ===========================================*/
 #mapRestau #map {
     width: 100%; height: 300px;
+    margin-top: 50px;
 }
+.infos-restau { width: 100%; }
+.info-restau { text-align: center; padding: 50px 0px 70px; }
+.info-restau h3{ font-family: "HelveticaLC"; text-transform: uppercase; font-size: 1.3em; }
+.info-restau .info { color: #fff; font-family: "Abolition"; }
+.info-restau .info.address { text-transform: uppercase; display: inline-block; text-align: right; }
+.info-restau .info.address .road { font-size: 3.5em; text-transform: uppercase; }
+.info-restau .info.address .postal { font-size: 2em; text-transform: uppercase; line-height: 0px; }
+.info-restau .info.phone { font-size: 4.5em; }
+
+/*===========================================
+================== FOOTER ==================
+===========================================*/
+.site-footer { text-align: center; position: relative; }
+
+#btnBackToTop {
+    width: 150px; height: 75px;
+    position: absolute;
+    top: -75px;
+    left: 50%;
+    margin-left: -75px;
+    overflow: hidden;
+}
+#btnBackToTop a {
+    background: #5A5A5A;
+    width: 80px; height: 80px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+       transform: rotate(45deg);
+}
+#btnBackToTop a:before {
+    content: '';
+    display: block;
+    width: 50px; height: 50px;
+    border: 2px solid #000;
+    transition: all .3s ease-in;
+}
+#btnBackToTop a:hover {
+    top: 35px;
+    background: #f7c049;
+}
+#btnBackToTop a:hover:before {
+    -webkit-transform: scale(.7);
+     -moz-transform: scale(.7);
+      -o-transform: scale(.7);
+       transform: scale(.7);
+}
+
+.site-footer>.row { border-top: 1px solid #5A5A5A; padding: 20px 0px; }
+.prefooter { font-size: 1.3em; text-transform: uppercase; }
