@@ -705,7 +705,7 @@
       <workItem from="1478644575400" duration="4818000" />
       <workItem from="1478650579058" duration="1018000" />
       <workItem from="1478681926597" duration="1014000" />
-      <workItem from="1478716487277" duration="236000" />
+      <workItem from="1478716487277" duration="248000" />
     </task>
     <task id="LOCAL-00001" summary="Creation du site wordpress">
       <created>1478216644144</created>
@@ -784,11 +784,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478716507672</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Police Helvetica">
+      <created>1478716775855</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1478716775855</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29390000" />
+    <option name="totallyTimeSpent" value="29402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
