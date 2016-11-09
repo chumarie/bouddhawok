@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1cd9bf3-100a-4e7f-ba44-bea08484b31c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/partials/map.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/partials/pushes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/VMrestaurants.php" afterPath="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/VMrestaurants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/css/isotope.css" afterPath="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/css/isotope.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/main.js" afterPath="$PROJECT_DIR$/wp-content/plugins/VMrestaurants/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/js/acf-input.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/js/acf-input.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/_tk/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/_tk/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/_tk/includes/css/v&amp;m_styles.css" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/includes/css/v&amp;m_styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/_tk/partials/plats.php" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/partials/plats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/_tk/templates/homepage.php" afterPath="$PROJECT_DIR$/wp-content/themes/_tk/templates/homepage.php" />
     </list>
     <ignored path="bouddhawok.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,8 +88,8 @@
       <file leaf-file-name="acf-input.min.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/js/acf-input.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="0" column="27168" selection-start-line="0" selection-start-column="27168" selection-end-line="0" selection-end-column="27168" />
+            <state relative-caret-position="72">
+              <caret line="0" column="27407" selection-start-line="0" selection-start-column="27407" selection-end-line="0" selection-end-column="27407" />
               <folding />
             </state>
           </provider>
@@ -717,7 +705,7 @@
       <workItem from="1478644575400" duration="4818000" />
       <workItem from="1478650579058" duration="1018000" />
       <workItem from="1478681926597" duration="1014000" />
-      <workItem from="1478716487277" duration="8000" />
+      <workItem from="1478716487277" duration="236000" />
     </task>
     <task id="LOCAL-00001" summary="Creation du site wordpress">
       <created>1478216644144</created>
@@ -789,17 +777,24 @@
       <option name="project" value="LOCAL" />
       <updated>1478645765027</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Police Helvetica">
+      <created>1478716507672</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1478716507672</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29162000" />
+    <option name="totallyTimeSpent" value="29390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25902778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25902778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1203,8 +1198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/js/acf-input.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="0" column="27168" selection-start-line="0" selection-start-column="27168" selection-end-line="0" selection-end-column="27168" />
+        <state relative-caret-position="72">
+          <caret line="0" column="27407" selection-start-line="0" selection-start-column="27407" selection-end-line="0" selection-end-column="27407" />
           <folding />
         </state>
       </provider>
