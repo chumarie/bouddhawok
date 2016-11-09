@@ -29,7 +29,6 @@
                 }
                 $cats = implode(' ', $catsArray);
             ?>
-                <div class="grid-sizer"></div>
             <div class="element-item <?php echo $cats; ?>" style="background: url('<?php echo the_post_thumbnail_url(); ?>');">
                 <h3 class="name"><?php the_title(); ?></h3>
             </div>

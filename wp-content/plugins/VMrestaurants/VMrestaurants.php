@@ -7,6 +7,19 @@ Author: Van PHAN & Marie CHU
 
 */
 
+// PAGE OPTION
+add_action('init', 'my_init_function');
+function my_init_function() {
+    if (function_exists('acf_add_options_page')) {
+        $page = acf_add_options_page(array(
+            'menu_title' => 'Le Restau',
+            'menu_slug' => 'theme-general-settings',
+            'capability' => 'edit_posts',
+            'redirect' => false
+        ));
+    }
+}
+
 // INTEGRATION DES STYLES ET SCRIPTS
 add_action( 'wp_enqueue_scripts', 'VM_scripts' );
 function VM_scripts(){
@@ -19,6 +32,11 @@ function VM_scripts(){
 
     // Main js
     wp_enqueue_script('main-script', plugins_url() . '/VMrestaurants/js/main.js', array('jquery'), '1.0.0');
+
+    //Google map
+    wp_enqueue_script('maps-script', plugins_url() . '/VMrestaurants/js/map.js', array('jquery'), '1.0.0', false);
+    wp_enqueue_script('googlemap-script', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCd892RZEScX6x3li7OwwxHqFYoLaBLj3E', array('jquery'), '1.0.0');
+
 
 }
 
@@ -62,3 +80,4 @@ function register_posttype() {
     register_post_type( 'plat', $args );
     register_taxonomy( 'plat-category', 'plat', array ('hierarchical' => true, 'label' => 'Catégories de plat'));
 }
+

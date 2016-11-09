@@ -10,6 +10,8 @@ Template Name: Homepage
 
 <?php get_template_part('partials/bienvenue'); ?>
 <?php get_template_part('partials/concept'); ?>
+<?php get_template_part('partials/pushes'); ?>
 <?php get_template_part('partials/plats'); ?>
+<?php get_template_part('partials/map'); ?>
 
 <?php get_footer(); ?>

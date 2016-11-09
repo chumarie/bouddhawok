@@ -1,6 +1,15 @@
 jQuery(function($){
     "use strict";
 
+    //scroll
+    $('ul#main-menu').find('a').on('click', function() { // Au clic sur un élément
+        var page = $(this).attr('href'); // Page cible
+        var speed = 550; // Durée de l'animation (en ms)
+        $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+        return false;
+    });
+
+
     function initializeIsotope(){
         if($('.grid').length){
             // init Isotope
