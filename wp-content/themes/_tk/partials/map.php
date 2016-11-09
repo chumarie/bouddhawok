@@ -1,3 +1,7 @@
+<?php
+    $coords = get_field('coordonnees', 'options');
+?>
+
 <section id="mapRestau" class="padding-top-100 bgBlack">
     <div class="row">
         <div class="main-title">
@@ -7,7 +11,7 @@
                 <span class="bgGold"></span>
             </h2>
         </div>
-        <div id="map"></div>
+        <div id="map" data-lat="<?php echo $coords['lat']; ?>" data-lng="<?php echo $coords['lng']; ?>"></div>
         <div class="infos-restau">
             <div class="info-restau col-md-6 col-xs-12">
                 <h3>Adresse</h3>

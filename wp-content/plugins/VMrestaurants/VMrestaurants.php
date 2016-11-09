@@ -17,9 +17,9 @@ function my_init_function() {
             'capability' => 'edit_posts',
             'redirect' => false
         ));
+
     }
 }
-
 // INTEGRATION DES STYLES ET SCRIPTS
 add_action( 'wp_enqueue_scripts', 'VM_scripts' );
 function VM_scripts(){
