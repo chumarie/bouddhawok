@@ -130,7 +130,9 @@ function _tk_scripts() {
     // Isotope
     wp_enqueue_script( 'isotope-script', get_template_directory_uri() . '/includes/libs/isotope/isotope.min.js', array( 'jquery' ), '1.0.0' );
 
-
+    //Fancy box
+    wp_enqueue_style( 'fancy_styles', get_template_directory_uri() . '/includes/css/jquery.fancybox.css' );
+    wp_enqueue_script( 'fancy-script', get_template_directory_uri() . '/includes/js/jquery.fancybox.pack.js', array( 'jquery' ), '1.0.0' );
 
 }
 add_action( 'wp_enqueue_scripts', '_tk_scripts' );

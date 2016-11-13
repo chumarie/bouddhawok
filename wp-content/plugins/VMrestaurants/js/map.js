@@ -8,6 +8,7 @@ jQuery(function($){
 
         var myLatLng = {lat: lat, lng: lng};
 
+
         // Create a map object and specify the DOM element for display.
         var map = new google.maps.Map(document.getElementById('map'), {
             center: myLatLng,
@@ -23,7 +24,7 @@ jQuery(function($){
             position: myLatLng,
             map: map,
             title: 'Bouddha wok',
-            icon: "http://simpleicon.com/wp-content/uploads/map-marker-8-64x64.png"
+            icon: "wp-content/plugins/VMrestaurants/img/panneau.png"
         });
     }
 

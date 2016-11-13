@@ -74,6 +74,7 @@ jQuery(function($){
 
     jQuery(document).ready(function(){
         initializeIsotope();
+        $("a.fancy").fancybox();
     });
 
     jQuery(window).on('load', function() {
